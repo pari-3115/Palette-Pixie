@@ -1,0 +1,5 @@
+{
+  "name": "UI Color Palette Generator",
+  "description": "Generate a full Tailwind CSS color palette from a single brand color using HSL manipulation.",
+  "requestFramePermissions": []
+}

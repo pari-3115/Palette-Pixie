@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+  
+  --color-pastel-pink: #ffd1dc;
+  --color-pastel-green: #d1ffd1;
+  --color-pastel-blue: #d1f0ff;
+  --color-pastel-yellow: #ffffd1;
+  --color-pastel-purple: #e0d1ff;
+}
+
+@layer base {
+  body {
+    @apply bg-[#fff9fb] text-[#4a4a4a];
+  }
+}
+
+.cute-shadow {
+  box-shadow: 0 8px 0px rgba(0, 0, 0, 0.05);
+}
+
+.cute-card {
+  @apply bg-white border-4 border-[#ffecf0] rounded-[2rem] p-6 transition-all duration-300;
+}
+
+.cute-card:hover {
+  @apply transform -translate-y-1;
+  box-shadow: 0 12px 0px rgba(255, 209, 220, 0.3);
+}
+
+.cute-button {
+  @apply px-6 py-3 rounded-full font-display font-bold text-lg transition-all active:scale-95;
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cute-button:hover {
+  @apply -translate-y-0.5;
+  box-shadow: 0 6px 0px rgba(0, 0, 0, 0.1);
+}
