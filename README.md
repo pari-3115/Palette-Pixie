@@ -2,6 +2,8 @@
 
 Palette Pixie is a magical color palette generator inspired by Tailwind CSS color systems. It helps designers and developers effortlessly create beautiful, scalable color palettes with just a click.
 
+https://palette-pixie.vercel.app/
+
 Whether you're building cozy UI designs, modern apps, or experimenting with aesthetics — Palette Pixie makes color exploration fun and intuitive ✨
 
 <img width="960" height="439" alt="image" src="https://github.com/user-attachments/assets/744cb956-ced3-4be0-b4c5-4e8e442e65ae" />
